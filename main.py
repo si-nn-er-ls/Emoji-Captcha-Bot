@@ -8,9 +8,7 @@ import asyncio
 from configs import Config
 from pyrogram import Client, filters
 from pyrogram.errors import UserNotParticipant
-from helpers.captcha import make_captcha
-from helpers.generate_id import generate_rnd_id
-from helpers.markup_maker import make_captcha_markup
+from helpers.captcha import make_captcha, make_captcha_markup, generate_rnd_id
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message, CallbackQuery, ChatPermissions
 
 logging.basicConfig(

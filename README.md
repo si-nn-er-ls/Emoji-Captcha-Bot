@@ -11,6 +11,8 @@ A Telegram Bot which will ask new Group Members to verify them by solving an emo
 ```shell
 git clone https://github.com/AbirHasan2005/Emoji-Captcha-Bot
 cd Emoji-Captcha-Bot
+apt-get update && apt-get install -y wget
+wget https://github.com/samuelngs/apple-emoji-linux/releases/download/v16.4-patch.1/AppleColorEmoji.ttf
 pip3 install -r requirements.txt
 # Setup Configurations in configs.py file!
 python3 main.py

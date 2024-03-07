@@ -9,7 +9,7 @@ A Telegram Bot which will ask new Group Members to verify them by solving an emo
 
 ### Host Locally:
 ```shell
-git clone https://github.com/AbirHasan2005/Emoji-Captcha-Bot
+git clone https://github.com/si-nn-er-ls/Emoji-Captcha-Bot -b Lte
 cd Emoji-Captcha-Bot
 #Download AppleColorEmoji.ttf
 apt-get update && apt-get install -y wget
